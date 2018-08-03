@@ -1,0 +1,28 @@
+include: ["_pages"]
+keep_files: [assets]
+exclude: ["_webpack"]
+
+# No dates in URL's
+permalink: /:title/
+
+# Where all of your Markup and HTML files are. (Assets like JS and SCSS are handeled by Webpack)
+source: src
+
+# Where your compiled files will be outputted to.
+destination: dist
+
+# use Jekyll autoprefixer
+plugins:
+  - jekyll-autoprefixer
+  - jekyll-redirect-from
+  - jekyll-last-modified-at
+  - jekyll-include-cache
+  - jekyll-algolia
+  - jekyll-sitemap # Leave this last
+
+algolia:
+  application_id: APP_ID
+  index_name: jekyll
+  search_only_api_key: SEARCH_ONLY_API_KEY
+
+# Collections

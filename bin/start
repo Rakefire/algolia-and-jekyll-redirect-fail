@@ -1,0 +1,5 @@
+#!/bin/sh
+
+echo
+echo "Start Service"
+npm start

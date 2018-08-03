@@ -1,0 +1,34 @@
+.editor-link, .nav-open nav .editor-link {
+  display: none;
+  margin-top: 0; }
+  .editor-link .btn, .nav-open nav .editor-link .btn {
+    border: 0;
+    border-radius: 2px;
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0;
+    font-size: 18px; }
+  .editor-link .btn, nav .editor-link, .nav-open nav .editor-link .btn, nav .nav-open nav .editor-link {
+    cursor: pointer;
+    background-color: #f7e064;
+    color: #333;
+    box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.2); }
+    .editor-link .btn:hover, nav .editor-link:hover, .nav-open nav .editor-link .btn:hover, nav .nav-open nav .editor-link:hover {
+      background-color: #f4d525;
+      color: #333; }
+
+.cms-editor-active .editor-link {
+  max-width: 35%;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: #fe9d2b;
+  display: block; }
+
+.cms-editor-active nav .editor-link {
+  display: inline; }
+

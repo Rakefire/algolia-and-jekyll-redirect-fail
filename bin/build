@@ -1,0 +1,5 @@
+#!/bin/sh
+
+echo
+echo "Building CSS, JS, and Jekyll for Production"
+npm run build

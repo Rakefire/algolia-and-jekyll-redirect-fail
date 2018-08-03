@@ -1,0 +1,12 @@
+---
+---
+{
+  "name": "{{ site.data.settings.title | strip }}",
+  "short_name": "{{ site.data.settings.short_name | strip }}",
+  "start_url": "{{ site.url }}",
+  "display": "standalone",
+  "background_color": "{{ site.data.settings.background_color }}",
+  "theme_color": "{{ site.data.settings.theme_color }}",
+  "description": "{{ site.data.settings.description | strip_newlines  | strip }}",
+  "icons": {{ site.data.settings.icons | jsonify }}
+}

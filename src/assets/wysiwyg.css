@@ -1,0 +1,26 @@
+p.indent {
+  margin-left: 1.5em;
+}
+
+p.first-letter-callout {
+}
+
+p.caption-text {
+  font-size: 14px;
+  font-style: italic;
+  margin: -20px 0 30px;
+}
+
+.section-subtitle {
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: #0fa76c;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  margin-bottom: 1.2em;
+}
+
+h2.section-title {
+
+}
